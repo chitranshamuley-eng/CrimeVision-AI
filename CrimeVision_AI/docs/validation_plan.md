@@ -1,0 +1,2 @@
+# Validation Plan
+Run `python -m unittest discover -s tests -v`. Manual smoke test: launch the app; upload small non-sensitive sample files; inspect image detections, transcription timestamps, video frames, timeline, chat, and PDF. Before real-world use, measure class-wise precision/recall, false positives/negatives, timestamp tolerance, transcription error rate, calibration, performance disparities, security, privacy, and report reproducibility. Obtain independent forensic and legal review. Do not deploy operationally until formally validated.

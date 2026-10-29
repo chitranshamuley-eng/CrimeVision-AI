@@ -1,0 +1,2 @@
+# Architecture
+Streamlit UI (`app.py`) routes uploads to independent image, audio, and video modules. Video samples frames and reuses image detection. `fusion.py` merges observations into a chronological timeline; `evidence_chat.py` performs deterministic keyword retrieval and supplies review prompts; `report.py` exports a PDF. Results remain in Streamlit session state; originals are not intentionally persisted by this prototype.

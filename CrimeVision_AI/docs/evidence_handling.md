@@ -1,0 +1,2 @@
+# Evidence Handling
+Only process evidence you are authorized to access. Preserve originals unchanged and work from verified copies. Record acquisition, time zone, hashes, transfers, and handlers in an approved evidence system. This prototype does not verify authenticity or implement a cryptographic chain of custody. Never commit real evidence, personal data, or case files to GitHub. Do not infer identity, intent, guilt, or causation from model labels. A missed detection is not proof of absence.
